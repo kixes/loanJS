@@ -29,7 +29,7 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
       }
     };
 
-    var html = ['<table>' + '<thead>' + '<tr>' + '<th></th>' + '<th>' + trans('Capital') + '</th>' + '<th>' + trans('Interest') + '</th>' + '<th>' + trans('Instalment') + '</th>' + '<th>' + trans('Remain') + '</th>' + '<th>' + trans('Interest sum') + '</th>' + '</tr>' + '</thead>' + '<tbody>', '', // body content [1]
+    var html = ['<table>' + '<thead>' + '<tr>' + '<th></th>' + '<th>' + trans('Capital') + '</th>' + '<th>' + trans('Interest') + '</th>' + '<th>' + trans('Installment') + '</th>' + '<th>' + trans('Remain') + '</th>' + '<th>' + trans('Interest sum') + '</th>' + '</tr>' + '</thead>' + '<tbody>', '', // body content [1]
     '</tbody>' + '</table>'];
 
     for (var i = 0; i < loan.installments.length; i++) {
