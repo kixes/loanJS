@@ -38,7 +38,7 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
       html[1] += instHtml;
     }
 
-    html[1] += '<tr>' + '<td>' + trans('sum') + '</td>' + '<td>' + fm(loan.capitalSum) + '</td>' + '<td>' + fm(loan.interestSum) + '</td>' + '<td>' + fm(loan.sum) + '</td>' + '<td>-</td>' + '<td>-</td>' + '</tr>';
+    html[1] += '<tr>' + '<td>' + trans('total') + '</td>' + '<td>' + fm(loan.capitalSum) + '</td>' + '<td>' + fm(loan.interestSum) + '</td>' + '<td>' + fm(loan.sum) + '</td>' + '<td>-</td>' + '<td>-</td>' + '</tr>';
     return html.join('');
   }
   /* istanbul ignore next */
